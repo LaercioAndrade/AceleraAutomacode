@@ -1,5 +1,5 @@
 {
-    "baseUrl": "",
+    "baseUrl": "http://demo.automationtesting.in/Register.html",
     "viewporHeight":1600,
     "viewporWidth":900,
     "defaultCommandTimeout": 5000
