@@ -1,1 +1,6 @@
-{}
+{
+    "baseUrl": "",
+    "viewporHeight":1600,
+    "viewporWidth":900,
+    "defaultCommandTimeout": 5000
+}
