@@ -6,7 +6,13 @@
 
     "video": true,
     "videoCompression": 50,
-    "videoUploadOnPasses": true
+    "videoUploadOnPasses": true,
+
+    "reporter": "mochawesome",
+
+    "reporterOptions":{
+      "overwrite": false  
+    }
     
 }
 
