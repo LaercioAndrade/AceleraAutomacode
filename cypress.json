@@ -1,7 +1,7 @@
 {
     "baseUrl":"http://demo.automationtesting.in/Register.html",
-    "viewportHeight": 660,
-    "viewportWidth": 1000,
+    "viewportHeight": 900,
+    "viewportWidth": 1600,
     "defaultCommandTimeout": 10000,
 
     "video": true,
