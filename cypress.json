@@ -1,6 +1,12 @@
 {
     "baseUrl": "http://demo.automationtesting.in/Register.html",
-    "viewporHeight":1600,
-    "viewporWidth":900,
-    "defaultCommandTimeout": 5000
+    "viewportHeight":660,
+    "viewportWidth":1000,
+    "defaultCommandTimeout": 10000,
+
+    "video": true,
+    "videoUploadOnPasses": true,
+    "videoCompression": 32
+
+
 }
