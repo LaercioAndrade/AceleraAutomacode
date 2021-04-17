@@ -23,5 +23,7 @@ Confirmpassword = () => {return '#secondpassword'}
 Buttonsubmit = () => {return '#submitbtn'}
 buttonrefresh = () => {return '#Button1'} 
 exitmenu = () => {return '#basicBootstrapForm'}
+
 }
+
 export default testElements;
