@@ -28,7 +28,7 @@ preencheremail(){
 }
 
 preenchertelefone(){
-    cy.get(Elements.Phone()).type("0123456789")
+    cy.get(Elements.Phone()).type("9953791990")
 }
 
 selecionarsexo(){
