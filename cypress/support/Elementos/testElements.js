@@ -13,7 +13,8 @@ ClickLanguage = () => {return '#msdd'}
 SelectLanguage = () => {return ':nth-child(29) > .ui-corner-all'}
 Skills = () =>   {return '#Skills'}
 Country = () => {return '#countries'}
-SelectCountry = () => {return '#country'}
+ClickCountry = () => {return '.select2-selection__arrow'}
+SelectCountry = () => {return '#select2-country-results > :nth-child(11)'}
 Year = () => {return '#yearbox'}
 Month = () => {return ':nth-child(11) > :nth-child(3) > .form-control'}
 Day = () => {return '#daybox'}
@@ -21,6 +22,6 @@ Password = () => {return '#firstpassword'}
 Confirmpassword = () => {return '#secondpassword'}
 Buttonsubmit = () => {return '#submitbtn'}
 buttonrefresh = () => {return '#Button1'} 
-
+exitmenu = () => {return '#basicBootstrapForm'}
 }
 export default testElements;

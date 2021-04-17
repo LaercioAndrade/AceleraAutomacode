@@ -45,12 +45,11 @@ selecionarlanguage(){
     cy.get(Elements.ClickLanguage()).click()
     cy.get(Elements.SelectLanguage()).contains('Portuguese').click()
     
-    //cy.get(Elements.Language()).select('Portugues')
 }
 
 selecionarskills(){
-    cy.wait(500)
-    cy.get(Elements.Skills()).select('Java', {force: true})
+    cy.get(Elements.exitmenu()).click()
+    cy.get(Elements.Skills()).select('Java')
 }
 
 selecionarpaís(){
@@ -58,7 +57,8 @@ selecionarpaís(){
 }
 
 selecionarcontinente(){
-    cy.get(Elements.SelectCountry()).select('United States of America',  {force: true })
+    cy.get(Elements.ClickCountry()).click()
+    cy.get(Elements.SelectCountry()).click()
 }
 
 selecionarano(){

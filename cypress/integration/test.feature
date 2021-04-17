@@ -7,7 +7,7 @@ Feature: Automatizar site teste
     Then  valido se o campo FirstName nãou possui dados
 
 
-  Scenario: Preencher todos os campos doFormulário
+  Scenario: Preencher todos os campos do Formulário
       Given que eu acesso o site Demo Automation
       When preencho todos os dados
       And  clico em submit

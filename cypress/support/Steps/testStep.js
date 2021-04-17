@@ -22,7 +22,6 @@ const Pagina = new testPage
   })
 
   // Preencher todos os dados
-
   When("preencho todos os dados", () => {
       Pagina.preenchercampoprimeironome();
       Pagina.preenchercamposegundonome();
@@ -47,5 +46,5 @@ const Pagina = new testPage
   })
 
   Then("valido a tela do Site", () => {
-
+      cy.screenshot()
   })
