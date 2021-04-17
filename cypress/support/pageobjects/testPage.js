@@ -83,7 +83,6 @@ confirmpassword(){
 
 clicarbotãosubmit(){
     cy.get(Elements.Buttonsubmit()).click()
-    cy.screenshot()
 }
 
 clicarbotãoRefresh(){
@@ -91,6 +90,10 @@ clicarbotãoRefresh(){
 }
 
 validartelalimpa(){
+    cy.screenshot()
+}
+
+validartelapreechida(){
     cy.screenshot()
 }
 

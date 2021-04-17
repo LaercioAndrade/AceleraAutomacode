@@ -1,14 +1,14 @@
 {
   "stats": {
     "suites": 1,
-    "tests": 1,
-    "passes": 1,
+    "tests": 2,
+    "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2021-03-27T14:40:38.699Z",
-    "end": "2021-03-27T14:40:50.772Z",
-    "duration": 12073,
-    "testsRegistered": 1,
+    "start": "2021-04-17T00:20:37.480Z",
+    "end": "2021-04-17T00:21:08.662Z",
+    "duration": 31182,
+    "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "3c0c06cf-cb01-4461-881c-0cc861f53f5b",
+      "uuid": "ee34578b-b4a0-4be0-86ad-53681b4153bd",
       "title": "",
       "fullFile": "cypress/integration/test.feature",
       "file": "cypress/integration/test.feature",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "231c1766-2b3f-4df1-a662-6d5563e80b46",
+          "uuid": "99dd5b68-8bc3-4bcb-904d-c97cb1c19ec8",
           "title": "Automatizar site teste",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Preencher campo FirstName",
               "fullTitle": "Automatizar site teste Preencher campo FirstName",
               "timedOut": null,
-              "duration": 11989,
+              "duration": 13186,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,39 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "397cc4a6-575b-4425-8ad7-d5660b8acd67",
-              "parentUUID": "231c1766-2b3f-4df1-a662-6d5563e80b46",
+              "uuid": "206eae47-ee51-417c-a7b6-82ae7a2ae2e0",
+              "parentUUID": "99dd5b68-8bc3-4bcb-904d-c97cb1c19ec8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Preencher todos os campos do Formulário",
+              "fullTitle": "Automatizar site teste Preencher todos os campos do Formulário",
+              "timedOut": null,
+              "duration": 17754,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "5c88b9c4-061e-41cc-a622-c460c9ea5099",
+              "parentUUID": "99dd5b68-8bc3-4bcb-904d-c97cb1c19ec8",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "397cc4a6-575b-4425-8ad7-d5660b8acd67"
+            "206eae47-ee51-417c-a7b6-82ae7a2ae2e0",
+            "5c88b9c4-061e-41cc-a622-c460c9ea5099"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 11989,
+          "duration": 30940,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

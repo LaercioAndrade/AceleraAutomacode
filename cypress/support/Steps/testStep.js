@@ -46,5 +46,5 @@ const Pagina = new testPage
   })
 
   Then("valido a tela do Site", () => {
-      cy.screenshot()
+      Pagina.validartelapreechida();
   })

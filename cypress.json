@@ -5,7 +5,7 @@
     "defaultCommandTimeout": 10000,
 
     "video": true,
-    "videoCompression": 50,
+    "videoCompression": 32,
     "videoUploadOnPasses": true,
 
     "reporter": "mochawesome",
