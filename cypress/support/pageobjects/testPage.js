@@ -12,7 +12,7 @@ abrirUrl(){
 }
 
 preenchercampoprimeironome(){
-    cy.get(Elements.FirstName()).type("Laércio ")
+    cy.get(Elements.FirstName()).type("Laércio")
 }
 
 preenchercamposegundonome(){
